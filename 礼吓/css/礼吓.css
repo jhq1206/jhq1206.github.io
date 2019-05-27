@@ -1,0 +1,255 @@
+html{
+	font-size: 50px;
+}
+*{padding: 0;margin: 0;}
+@media screen and (max-width: 321px){
+	html{
+		font-size: 44px;
+	}
+}
+
+@media screen and (min-width: 766px) and (max-width: 1000px){
+	html{
+		font-size: 100px;
+	}
+}
+@media screen and (min-width: 1000px){
+	html{
+		font-size: 140px;
+	}
+}
+.main{
+	/* width: 7.5rem; */
+	height: 40rem;
+}
+.title{
+	/* width: 7.5rem; */
+	margin-top: .2rem auto;
+	font-size: .36rem;
+}
+.title p{
+	text-align: center;
+	font-size: .36rem;
+}
+.xinyi{
+	/* background: url(../img/1.png) no-repeat; */
+	background: url(../img/为好友送上一份心意.gif) no-repeat;
+	background-size: 100%;
+	width: 7.5rem;
+	height: 3.6rem;
+	margin: .59rem auto;
+	
+	display: flex;
+	flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+.xinyiitem{
+	margin: .3rem;
+	width: 3.82rem;
+	height: .4rem;
+}
+/* .xinyiitem img:nth-child(1){
+	width: 3.82rem;
+	height: .4rem;
+	/* margin-bottom: .3rem; */
+	/* margin-right: .3rem;
+	margin-top: .51rem;
+	float: right; */
+}
+.xinyiitem img:nth-child(2){
+	width: 2.07rem;
+	height: .22rem;
+} */
+
+.xianding{
+	/* background: url(img/限定.) no-repeat ;
+	background-size: 6.9rem 2.5rem; */
+	/* width: 7.5rem;
+	 height: 3.6rem; */
+	width: 6.9rem;
+	height: 2.5rem;
+	margin: .3rem auto;
+	display: flex;
+	position: relative;
+}
+.xianding img:nth-child(1){
+	width: 6.9rem;
+	height: 2.5rem;
+	margin: .3rem auto;
+	display: flex;
+}
+.xianding img:nth-child(2){
+	width: .52rem;
+	height: .46rem;
+	position: absolute;
+	top: 5rem;
+	right: .1rem;
+}
+
+.bo{
+	width: 6.9rem;
+	height: .4rem;
+	margin: .3rem auto;
+	display: flex;
+}
+.bo img{
+	width: 4.66rem;
+	height: .32rem;
+	margin: 0 auto;
+}
+.nvshen{
+	/* background: url(../img/home_pic_tip1.png) no-repeat; */
+	/* background-size: 6.9rem 2.5rem; */
+	width: 6.9rem;
+	height: 2.5rem;
+	margin: .3rem auto;
+	display: flex;
+}
+.nvshen img{
+	width: 6.6rem;
+	height: 2.2rem;
+	margin: 0 auto;
+}
+.nanshen{
+	/* background: url(../img/home_pic_tip2.png) no-repeat; */
+	/* background-size: 6.9rem 2.5rem; */
+	width: 6.9rem;
+	height: 2.5rem;
+	margin: .3rem auto;
+	display: flex;
+}
+.nanshen img{
+	width: 6.6rem;
+	height: 2.2rem;
+	margin: 0 auto;
+}
+.zuimeng{
+	/* background: url(../img/home_pic_tip3.png) no-repeat; */
+	/* background-size: 6.9rem 2.5rem; */
+	width: 6.9rem;
+	height: 2.5rem;
+	margin: .3rem auto;
+	display: flex;
+
+}
+.zuimeng img{
+	width: 6.6rem;
+	height: 2.2rem;
+	margin: 0 auto;
+}
+.yitiao{
+	width: 6.9rem;
+	height: 2.5rem;
+	margin: .3rem auto;
+	display: flex;
+}
+.yitiao img{
+	width: 6.6rem;
+	height: 2.2rem;
+	margin: 0 auto;
+}
+.guimi{
+	width: 6.9rem;
+	height: 2.5rem;
+	margin: .3rem auto;
+	display: flex;
+}
+.guimi img{
+	width: 6.6rem;
+	height: 2.2rem;
+	margin: 0 auto;
+}
+.gemen{
+	width: 6.9rem;
+	height: 2.5rem;
+	margin: .3rem auto;
+	display: flex;
+}
+.gemen img{
+	width: 6.6rem;
+	height: 2.2rem;
+	margin: 0 auto;
+}
+.xiaoshun{
+	width: 6.9rem;
+	height: 2.5rem;
+	margin: .3rem auto;
+	display: flex;
+}
+.xiaoshun img{
+	width: 6.6rem;
+	height: 2.2rem;
+	margin: 0 auto;
+}
+.ganbei{
+	width: 6.9rem;
+	height: 2.5rem;
+	margin: .3rem auto;
+	display: flex;
+}
+.ganbei img{
+	width: 6.6rem;
+	height: 2.2rem;
+	margin: 0 auto;
+}
+.erza{
+	width: 6.9rem;
+	height: 2.5rem;
+	margin: .3rem auto;
+	display: flex;
+}
+.erza img{
+	width: 6.6rem;
+	height: 2.2rem;
+	margin: 0 auto;
+}
+.baba{
+	width: 6.9rem;
+	height: 2.5rem;
+	margin: .3rem auto;
+	display: flex;
+}
+.baba img{
+	width: 6.6rem;
+	height: 2.2rem;
+	margin: 0 auto;
+}
+
+
+
+
+.wo{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/* align-items: center; */
+	width: 7.5rem;
+	height: .27rem;
+	margin: .5rem auto;
+}
+.wo .save{
+	font-size: .28rem;
+	width: 1.2rem;
+	height: .27rem;
+	padding-right: .6rem;
+	border-right: .01rem solid black;
+	text-align: center;
+
+}
+.wo .send{
+	font-size: .28rem;
+	width: 1.2rem;
+	height: .27rem;
+	padding-left: .6rem;
+	border-left: .01rem solid black;
+	text-align: center;
+
+}
+.wo a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+

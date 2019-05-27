@@ -1,0 +1,272 @@
+html{
+	font-size: 50px;
+}
+*{padding: 0;margin: 0;}
+@media screen and (max-width: 321px){
+	html{
+		font-size: 44px;
+	}
+}
+@media screen and (min-width: 766px) and (max-width: 1000px){
+	html{
+		font-size: 90px;
+	}
+}
+@media screen and (min-width: 1000px){
+	html{
+		font-size: 120px;
+	}
+}
+.main{
+	/* width: 7.5rem; */
+	height: 24rem;
+}
+.title{
+	/* width: 7.5rem; */
+	margin: .2rem auto;
+	/* font-size: .36rem; */
+}
+.title p{
+	text-align: center;
+	font-size: .36rem;
+}
+.box1{
+	width: 6.9rem;
+	margin: .5rem auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.box1 .box1left{
+	height: .34rem;
+	display: flex;
+}
+.box1left img{
+	width: .34rem;
+	height: .34rem;
+}
+.box1left span{
+	font-size: .28rem;
+	margin-left: .1rem;
+}
+.box1 .box1right{
+	height: .34rem;
+	display: flex;
+}
+.box1right p{
+	font-size: .24rem;
+	
+}
+
+.box2{
+	width: 6.9rem;
+	height: 2.55rem;
+	margin: .5rem auto;
+	display: flex;
+}
+.box2 img{
+	width: 2.26rem;
+	height: 2.55rem;
+	margin: 0 auto;
+}
+
+.box3{
+	width: 6.9rem;
+	margin: .5rem auto;
+	height: .66rem;
+	display: flex;
+}
+.box3 img{
+	width: .66rem;
+	height: .66rem;
+	margin: 0 auto;
+}
+
+.box4{
+	width: 6.9rem;
+	height: .34rem;
+	margin: .5rem auto;
+	display: flex;
+	justify-content: flex-start;
+}
+.box4 img{
+	width: .34rem;
+	height: .34rem;
+}
+.box4 span{
+	font-size: .28rem;
+	margin-left: .1rem;
+}
+
+.box5{	
+	width: 6.9rem;
+	margin: .5rem auto;
+	display: flex;
+	justify-content: space-between;
+}
+.box5 .box5left{
+	height: .34rem;
+	display: flex;
+}
+.box5left p{
+	font-size: .24rem;
+}
+.box5 .box5right{
+	/* margin: 0 1rem; */
+	height: .34rem;
+	display: flex;
+	
+}
+.box5right span{
+	font-size: .28rem;
+	margin-right: .1rem;
+}
+.box5right img{
+	width: .34rem;
+	height: .34rem;
+}
+
+.box6{
+	width: 6.9rem;
+	margin: .5rem auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.box6 .pinzhi{
+	width: 2.98rem;
+	height: 2.62rem;
+	margin: .1rem auto;
+	border: .01rem solid black;
+	border-radius: .1rem;
+	display: flex;
+	flex-direction: column;
+}
+.pinzhi .pinzhishang{
+	width: 2.98rem;
+	height: 1.74rem;
+	border-bottom: .01rem solid black;
+	display: flex;
+	flex-direction: row;
+}
+.pinzhishang .shangleft{
+	width: 2.3rem;
+	height: 1.74rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.pinzhishang .shangright{
+	width: .68rem;
+	height: 1.74rem;
+	display: flex;
+	flex-direction: row;
+	/* justify-content: center; */
+	align-items: center;
+}
+.pinzhishang .shangright img{
+	width: .58rem;
+	height: .50rem;
+	/* margin: .6rem auto; */
+}
+.shangleft p:nth-child(1){
+	font-size: .3rem;
+	width: 2.3rem;
+	height: .32rem;
+	line-height: .3rem;
+	margin: .1rem auto;
+}
+.shangleft p:nth-child(2){
+	font-size: .48rem;
+	width: 2.3rem;
+	height: .5rem;
+	line-height: .48rem;
+	margin: .1rem auto;
+}
+.shangleft p:nth-child(3){
+	font-size: .2rem;
+	width: 2.3rem;
+	height: .22rem;
+	line-height: .2rem;
+	margin: .1rem auto;
+
+}
+
+.pinzhi .pinzhixia{
+	width: 2.98rem;
+	height: .87rem;
+	/* margin: 0 auto; */
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pinzhixia img{
+	width: .32rem;
+	height: .32rem;
+	/* margin: .27rem; */
+	/* text-align: center; */
+}
+
+.box7{
+	width: 6.9rem;
+	margin: .1rem auto;
+	display: flex;
+	justify-content: center;
+	/* flex-wrap: wrap; */
+}
+.box7 p{
+	font-size: .22rem;
+	line-height: .22rem;
+}
+
+.box8{
+	width: 6.9rem;
+	margin: .5rem auto;
+	border-top: .01rem solid black;
+	display: flex;
+	justify-content: space-between;
+}
+.box8 .box8left{
+	width: 2.3rem;
+	height: 1.28rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.box8left p:nth-child(1){
+	font-size: .22rem;
+	width: 2.3rem;
+	height: .22rem;
+	line-height: .22rem;
+	margin: .1rem auto;
+}
+
+.box8left p:nth-child(2){
+	font-size: .42rem;
+	width: 2.3rem;
+	height: .42rem;
+	line-height: .42rem;
+	margin: .1rem auto;
+}
+.box8 .box8right{
+	width: 2.3rem;
+	height: 1.28rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.box8right .anniu{
+	width: 1.52rem;
+	height: .68rem;
+	border-radius: .1rem;
+	background: green;
+	align-items: center;
+}
+.box8right .anniu a{
+	color: white;
+	text-decoration: none;
+}

@@ -1,0 +1,130 @@
+html{
+	font-size: 50px;
+}
+*{padding: 0;margin: 0;}
+@media screen and (max-width: 321px){
+	html{
+		font-size: 44px;
+	}
+}
+@media screen and (min-width: 766px) and (max-width: 1000px){
+	html{
+		font-size: 90px;
+	}
+}
+@media screen and (min-width: 1000px){
+	html{
+		font-size: 120px;
+	}
+}
+.main{
+	/* width: 7.5rem; */
+	height: 10rem;
+}
+.title{
+	/* width: 7.5rem; */
+	margin: .2rem auto;
+	/* font-size: .36rem; */
+}
+.title p{
+	text-align: center;
+	font-size: .36rem;
+}
+.box1{
+	width: 6.9rem;
+	/* height: 2.95rem; */
+	margin: .5rem auto;
+	/* display: flex; */
+	/* position: relative; */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/* align-items: flex-end; */
+}
+.box1 img{
+	width: 2rem;
+	height: 2rem;
+	margin: .2rem auto;
+	/* position: absolute;
+	top: .1rem;
+	left: 2.2rem; */
+}
+
+.box2{
+	width: 6.9rem;
+	height: 1.4rem;
+	margin: .2rem auto;
+	display: flex;
+	justify-content: center;
+}
+.box2 span{
+	font-size: .4rem;
+	margin-bottom: 1rem;
+}
+.box3{
+	width: 6.9rem;
+	height: .3rem;
+	margin: .5rem auto;
+	display: flex;
+	justify-content: center;
+}
+.box3 span{
+	font-size: .26rem;
+	color: #D3D3D3;
+	text-align: center;
+	/* margin-left: .1rem; */
+}
+.box4{
+	width: 6.9rem;
+	height: .9rem;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.box4 a{
+	width: 6.9rem;
+	height: .9rem;
+	text-align: center;
+	line-height: .9rem;
+	border-radius: .1rem;
+	background: green;
+	align-items: center;
+	color: white;
+	font-size: .36rem;
+	text-decoration: none;
+}
+
+.wo{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/* align-items: center; */
+	width: 7.5rem;
+	height: .27rem;
+	margin: 2.5rem auto;
+}
+.wo .save{
+	font-size: .28rem;
+	width: 1.2rem;
+	height: .27rem;
+	padding-right: .6rem;
+	border-right: .01rem solid black;
+	text-align: center;
+
+}
+.wo .send{
+	font-size: .28rem;
+	width: 1.2rem;
+	height: .27rem;
+	padding-left: .6rem;
+	border-left: .01rem solid black;
+	text-align: center;
+
+}
+.wo a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
